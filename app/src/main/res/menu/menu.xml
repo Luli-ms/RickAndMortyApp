@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/todos"
+        android:title="Personajes"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/alive"
+        android:title="Vivos"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/dead"
+        android:title="Muertos"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/unknown"
+        android:title="Desconocido"
+        app:showAsAction="never" />
+</menu>
